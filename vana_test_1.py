@@ -56,7 +56,7 @@ class MyVanna(ChromaDB_VectorStore, OpenAI_Chat):
         ChromaDB_VectorStore.__init__(self, config=config)
         OpenAI_Chat.__init__(self, config=config)
 
-vn = MyVanna(config={'api_key': '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', 'model': 'gpt-4o'})
+vn = MyVanna(config={'api_key': 'OPEN-AI-API-KEY', 'model': 'gpt-4o'})
 
 vn.connect_to_sqlite('/content/my_database.db')
 
